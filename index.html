@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deen — Personal Spot</title> 
-    <!-- Fonts: Gaegu (Doodle hand-drawn) & Space Grotesk (Skena Tech) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
@@ -17,7 +16,6 @@
         }
 
         body {
-            /* Background Hitam Gradasi Merah Maroon Deep */
             background: radial-gradient(circle at 50% 30%, #3a0007 0%, #120003 50%, #050001 100%);
             background-attachment: fixed;
             color: #ffe4e6;
@@ -30,7 +28,6 @@
             padding: 20px 16px;
         }
 
-        /* Container Utama */
         .page-wrapper {
             width: 100%;
             display: flex;
@@ -39,7 +36,6 @@
             justify-content: center;
         }
 
-        /* Container Kartu */
         .card {
             background: rgba(18, 0, 3, 0.85);
             border: 2px solid #9f1239;
@@ -52,7 +48,6 @@
             margin: 0 auto;
         }
 
-        /* Hero Header */
         .hero {
             display: flex;
             align-items: center;
@@ -60,7 +55,6 @@
             margin-bottom: clamp(16px, 3vw, 24px);
         }
 
-        /* Stickman Avatar / Mug Hand-drawn */
         .stickman-box {
             width: clamp(65px, 15vw, 85px);
             height: clamp(65px, 15vw, 85px);
@@ -95,7 +89,6 @@
             text-decoration: underline cubic-bezier(0.1, 0.7, 1.0, 0.1);
         }
 
-        /* Titles / Headers */
         .section-title {
             font-family: 'Gaegu', cursive;
             font-size: clamp(1.5rem, 4vw, 1.8rem);
@@ -112,7 +105,6 @@
             letter-spacing: 0.5px;
         }
 
-        /* Line Divider */
         .doodle-line {
             height: 2px;
             background: #881337;
@@ -121,7 +113,6 @@
             opacity: 0.6;
         }
 
-        /* Tech Stack Badges */
         .tech-container {
             display: flex;
             flex-wrap: wrap;
@@ -149,7 +140,6 @@
             transform: scale(1.05) rotate(-2deg);
         }
 
-        /* Social / Connect Icons Doodle Style */
         .social-container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -170,7 +160,6 @@
             transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
 
-        /* Styling SVG Doodle Icon */
         .doodle-icon {
             width: 100%;
             height: 100%;
@@ -184,7 +173,6 @@
             transition: all 0.2s ease;
         }
 
-        /* Hover Effect Skena Red-Rose */
         .social-card:hover {
             background: #e11d48;
             border-color: #f43f5e;
@@ -197,7 +185,6 @@
             transform: scale(1.08);
         }
 
-        /* Animation */
         @keyframes softWiggle {
             0%, 100% { transform: rotate(0deg); }
             25% { transform: rotate(-3deg); }
@@ -246,13 +233,13 @@
 
             <div class="doodle-line"></div>
 
-            <!-- Let's Get Connect Section -->
+            <!-- konek -->
             <div>
                 <h2 class="section-title">LET'S GET CONNECT</h2>
                 <span class="section-sub">selalu terbuka untuk obrolan hal baru atau proyek seru.</span>
                 
                 <div class="social-container">
-                    <!-- WhatsApp Doodle -->
+                    <!-- weya Doodle -->
                     <a href="https://wa.me/62815770928" target="_blank" class="social-card" title="WhatsApp">
                         <svg class="doodle-icon" viewBox="0 0 24 24">
                             <path d="M3.5 12c0-4.5 3.5-8.2 8.2-8.2 4.6 0 8.3 3.7 8.3 8.2 0 4.6-3.7 8.3-8.3 8.3-1.6 0-3.1-.4-4.4-1.2L3.5 20l.9-3.8C3.8 14.9 3.5 13.5 3.5 12z" />
@@ -260,7 +247,7 @@
                         </svg>
                     </a>
 
-                    <!-- Instagram Doodle -->
+                    <!-- ig -->
                     <a href="https://instagram.com/archaeopteryxsupremacy" target="_blank" class="social-card" title="Instagram">
                         <svg class="doodle-icon" viewBox="0 0 24 24">
                             <path d="M4.5 8c0-2.2 1.8-4 4-4h7c2.2 0 4 1.8 4 4v8c0 2.2-1.8 4-4 4h-7c-2.2 0-4-1.8-4-4V8z" />
@@ -269,7 +256,7 @@
                         </svg>
                     </a>
 
-                    <!-- Discord Doodle -->
+                    <!-- dc -->
                     <a href="https://discord.com/users/aspiderwoman_" target="_blank" class="social-card" title="Discord">
                         <svg class="doodle-icon" viewBox="0 0 24 24">
                             <path d="M18.8 6.2C17.4 5.5 15.9 5 14.3 4.8c-.2.4-.4.8-.6 1.2-1.8-.3-3.6-.3-5.4 0-.2-.4-.4-.8-.6-1.2-1.6.2-3.1.7-4.5 1.4-2.8 4.1-3.5 8.1-3.1 12.1 1.9 1.4 3.7 2.2 5.5 2.8.4-.6.8-1.2 1.1-1.9-.6-.2-1.2-.5-1.8-.8.1-.1.3-.2.4-.3 3.5 1.6 7.3 1.6 10.7 0 .1.1.3.2.4.3-.6.3-1.2.6-1.8.8.3.7.7 1.3 1.1 1.9 1.8-.6 3.6-1.4 5.5-2.8.5-4.6-.7-8.6-3.1-12.1zM8.5 15.3c-1.1 0-2-1-2-2.2s.9-2.2 2-2.2 2 1 2 2.2c0 1.2-.9 2.2-2 2.2zm7 0c-1.1 0-2-1-2-2.2s.9-2.2 2-2.2 2 1 2 2.2c0 1.2-.9 2.2-2 2.2z" />
